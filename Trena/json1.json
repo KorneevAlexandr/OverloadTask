@@ -1,0 +1,7 @@
+{	
+	"View": [ "Food", "Computer", "Food", "Furniture", "Clothes" ],
+	"Name": [ "Meat", "MAC", "Milk", "Sofa", "Scarf" ],
+	"PurchasePrice": [ 1.4, 240.1, 0.9, 130.5, 10.3 ],
+	"Markup": [ 1.2, 1.1, 1.52, 1.22, 1.19 ],
+	"Numerous": [ 130, 20, 200, 10, 35 ]
+}
