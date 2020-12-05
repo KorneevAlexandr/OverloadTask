@@ -50,7 +50,7 @@ namespace Trena
        public async Task WriteFile(AllData data)
        {
             // сохранение данных
-            using (FileStream fs = new FileStream(@"D:\Учеба\Training\TrenirovkaTask2\Trena\json1.json", 
+            using (FileStream fs = new FileStream(@"D:\Учеба\Training\OverloadOperators\Trena\json1.json", 
                 FileMode.OpenOrCreate))
             {
                 await JsonSerializer.SerializeAsync<AllData>(fs, data);
@@ -65,7 +65,7 @@ namespace Trena
         public async Task<AllData> ReadFile()
         {
             // чтение данных
-            using (FileStream fs = new FileStream(@"D:\Учеба\Training\TrenirovkaTask2\Trena\json1.json", 
+            using (FileStream fs = new FileStream(@"D:\Учеба\Training\OverloadOperators\Trena\json1.json", 
                 FileMode.OpenOrCreate))
             {
 				var Data = await JsonSerializer.DeserializeAsync<AllData>(fs);
